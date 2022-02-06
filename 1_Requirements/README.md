@@ -1,8 +1,7 @@
-  **M1_ElectricityBillingSystem**
-
 **# REQUIREMENTS**
 
-**#INTRODUCTION:** The Electricity Bill calculator project is the application based mini project,which is used to predict the electricity bill of next month by taking input of appliance or load used. The tool used for writing the code in this project is visual studio code. This project has multi file and multiplatform approach (Linux and Windows).
+#INTRODUCTION:
+        The Electricity Bill calculator project is the application based mini project,which is used to predict the electricity bill of next month by taking input of appliance or load used. The tool used for writing the code in this project is visual studio code. This project has multi file and multiplatform approach (Linux and Windows).
 
 **#RESEARCH**
 
@@ -42,5 +41,3 @@ Threats: Slower growth in an innovation always threat for the company in this dy
 **When:** Need for calculation.
 
 **How:** Calculates the user input as number of loads and gives the output.
-
-**Detail Requirements:**
