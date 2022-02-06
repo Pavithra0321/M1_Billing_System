@@ -1,3 +1,4 @@
+<<<<<<< HEAD
   **M1_ElectricityBillingSystem**
 
 **# REQUIREMENTS**
@@ -44,3 +45,6 @@ Threats: Slower growth in an innovation always threat for the company in this dy
 **How:** Calculates the user input as number of loads and gives the output.
 
 **Detail Requirements:**
+=======
+M1_ElectricityBillingSystem
+>>>>>>> c763f6a3af5bf46db517dbaef48dc13ac261e638
