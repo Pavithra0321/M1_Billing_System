@@ -4,9 +4,10 @@
 #include <string.h>
 #include <Windows.h>
 #include "MainElectricityBill.h"
-#include "ElectricityBill.h"
+#include "ElectricityBill.c"
 void Urban();
 void Rural();
+//void details();
 void main()
 { 
 	details();
@@ -24,16 +25,22 @@ void main()
 		system("cls");
 		switch (option)
 		{
-		case 1:
+			case 1:
 			Urban();
-			break;
+
+            printf("\n\n*******Thank you******\n\n");
+            break;
 		case 2:
 			Rural();
+			printf("\n\n*******Thank you******\n\n");
+
 			break;
-		default:
+        case 3:
+			printf("\n*******Thank you******\n");
+			break;default:
 			printf("SORRY INVALID CHOICE!\n");
 			printf("PLEASE CHOOSE FROM 1 or 2\n");
 		}
 		getch();
-	} while (option != 3);
+	} while (option == 3);
 }
