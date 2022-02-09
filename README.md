@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
   **M1_ElectricityBillingSystem**
 
 **# REQUIREMENTS**
