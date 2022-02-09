@@ -1,7 +1,7 @@
-  * Certificates
+   ##Certificates
 
-    -Sololearn
-    -Cisco NDG linux
-    -Hackerearth points
-    -Github learning
+    * Sololearn
+    * Cisco NDG linux
+    * Hackerearth points
+    * Github learning
 
