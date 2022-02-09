@@ -1,4 +1,7 @@
-Sololearn
-Cisco NDG linux
-Snap of Hackerearth points
+  * Certificates
+
+    -Sololearn
+    -Cisco NDG linux
+    -Hackerearth points
+    -Github learning
 
