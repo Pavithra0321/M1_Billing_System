@@ -1,7 +1,7 @@
 # Implementation
  * In C programming
 
- ## Set-1
+ ## Set
  * Concepts
     * Functions
     * Structures

@@ -4,9 +4,9 @@
  * @brief  Calculating power bill according to conditions(area,unit)
  * @version 0.1
  * @date 2022-02-11
- * 
+ *
  * @copyright Copyright (c) 2022
- * 
+ *
  */
 
 #include<stdio.h>
@@ -14,7 +14,9 @@
 #include<conio.h>
 #include<string.h>
 #include<Windows.h>
-#include"Main.h"
+#include"inc/Main.h"
+#include"inc/Bill_func.h"
+
 
 void get_userdetails()
 {

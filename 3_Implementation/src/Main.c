@@ -1,12 +1,12 @@
 /**
  * @file Main.c
- * @author Pavithra M 
+ * @author Pavithra M
  * @brief  Getting inputs from user
  * @version 0.1
  * @date 2022-02-11
- * 
+ *
  * @copyright Copyright (c) 2022
- * 
+ *
  */
 
 #include <stdio.h>
@@ -14,13 +14,15 @@
 #include <conio.h>
 #include <string.h>
 #include <Windows.h>
-#include "Main.h"
-#include "Bill_func.c"
+#include "inc/Main.h"
+#include "inc/Bill_func.h"
+#include"Bill_func.c"
+
 void Urban_Area();
 void Rural_Area();
-//void details();
+void get_userdetails();
 void main()
-{ 
+{
 	get_userdetails();
 	int user_option;
 	do
@@ -30,7 +32,7 @@ void main()
 		printf("1. URBAN AREA\n");
 		printf("2. RURAL AREA\n");
 		printf("3. EXIT\n");
-		
+
 		printf("Now Enter Your Choice :\n");
 		scanf("%d", &user_option);
 		system("cls");
