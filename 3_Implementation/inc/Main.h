@@ -1,17 +1,16 @@
+
 /**
- * @file MainElectricityBill.h
- * @author Pavithra M 
- * @brief 
+ * @file Main.h
+ * @author Pavithra M
+ * @brief  naming and declaring multi datatype variables using structure 
  * @version 0.1
- * @date 2022-02-10
+ * @date 2022-02-11
  * 
  * @copyright Copyright (c) 2022
  * 
  */
-
-
-#ifndef __MainElectricityBill_H__
-#define __MainElectricityBill_H__
+#ifndef __Main_H__
+#define __Main_H__
 
 #include<stdio.h>
 #include<stdlib.h>
@@ -19,7 +18,7 @@
 #include<string.h>
 #include<Windows.h>
 
-struct ElectricBill
+struct ElectricityBill
 {
 	char area[6];
 	char name[15];
@@ -30,5 +29,5 @@ struct ElectricBill
 	int phonenumber[10];
 };
 
-struct ElectricBill B;
+struct ElectricityBill EB;
 #endif
