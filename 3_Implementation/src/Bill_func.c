@@ -20,6 +20,7 @@
 
 void get_userdetails()
 {
+    printf("\t\t\t**WELCOME TO ELECTRICITY BILLING GENERATOR**\n");
     printf("AREA NAME:\n");
 	scanf("%s", EB.area);
 	printf("REGISTERED PERSON NAME:\n");

@@ -27,7 +27,7 @@ void main()
 	int user_option;
 	do
 	{
-		printf("\t\t\t\t\t\t**WELCOME TO ELECTRICITY BILLING GENERATOR**\n");
+		
 		printf("Please SELECT Your Choice From Below Options:\n");
 		printf("1. URBAN AREA\n");
 		printf("2. RURAL AREA\n");
