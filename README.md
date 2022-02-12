@@ -3,11 +3,9 @@
 
 **# REQUIREMENTS**
 
-**INTRODUCTION:** The Electricity Bill calculator project is the application based mini project,which is used to predict the electricity bill of next month by taking input of appliance or load used. The tool used for writing the code in this project is visual studio code. This project has multi file and multiplatform approach (Linux and Windows).
+ The Electricity Bill project is the mini project,which is used to predict the electricity bill of next month by taking input of appliance or load used. The tool used for writing the code in this project is visual studio code.
 
-**#RESEARCH**
-
-**People who don’t have technical knowledge of calculating electricity bill can use this application to predict electricity bill of upcoming months, however, the defining features of an electricity bill calculator include:**
+ the defining features of an electricity bill calculator include:
 
 - power rating of all loads
 - total load calculation
@@ -16,13 +14,9 @@
 
 In addition, high-end electricity bill calculators generally include:
 
-- electricity bill calculation in urban areas
-- electricity bill calculation in rural areas
+- electricity bill in urban areas
+- electricity bill in rural areas
 - bill calculation based on units consumed
-
-**Defining System:** 
-
-Design and testing operations of electricity bill calculator using unit testing algorithm.
 
 **SWOT analysis:**
 
@@ -44,4 +38,7 @@ Threats: Slower growth in an innovation always threat for the company in this dy
 
 **How:** Calculates the user input as number of loads and gives the output.
 
+![image](https://user-images.githubusercontent.com/99086668/153717131-a3043da6-38b7-46df-9f5d-860ea56547c9.png)
+
+![image](https://user-images.githubusercontent.com/99086668/153717150-5898ecfa-8d1b-463e-8e21-b14515cf0eb2.png)
 
