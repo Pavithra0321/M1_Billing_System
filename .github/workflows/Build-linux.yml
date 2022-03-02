@@ -2,9 +2,9 @@ name: Build-linux
 
 on:
   push:
-    branches: [ main ]
+    branches: [ EB-System ]
   pull_request:
-    branches: [ main ]
+    branches: [ EB-System ]
 
 jobs:
   build:
