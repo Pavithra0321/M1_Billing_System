@@ -5,6 +5,10 @@
   ![image](https://user-images.githubusercontent.com/99086668/153717131-a3043da6-38b7-46df-9f5d-860ea56547c9.png)
 
   ![image](https://user-images.githubusercontent.com/99086668/153717150-5898ecfa-8d1b-463e-8e21-b14515cf0eb2.png)
+  
+  [![Build-linux](https://github.com/Pavithra0321/M1_ElectricityBilling_Util/actions/workflows/Build-linux.yml/badge.svg)](https://github.com/Pavithra0321/M1_ElectricityBilling_Util/actions/workflows/Build-linux.yml)
+  
+  [![Cppcheck](https://github.com/Pavithra0321/M1_ElectricityBilling_Util/actions/workflows/Static_check.yml/badge.svg)](https://github.com/Pavithra0321/M1_ElectricityBilling_Util/actions/workflows/Static_check.yml)
 
 
 **# REQUIREMENTS**
