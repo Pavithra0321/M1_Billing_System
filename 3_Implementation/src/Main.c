@@ -1,26 +1,21 @@
 /**
  * @file Main.c
- * @author Pavithra M
- * @brief  Getting inputs from user
+ * @author Pavithra M ()
+ * @brief 
  * @version 0.1
- * @date 2022-02-11
- *
+ * @date 2022-03-02
+ * 
  * @copyright Copyright (c) 2022
- *
+ * 
  */
 
 #include <stdio.h>
 #include <stdlib.h>
-#include <conio.h>
+#include <curses.h>
 #include <string.h>
-#include <Windows.h>
-#include "inc/Main.h"
-#include "inc/Bill_func.h"
-#include"Bill_func.c"
+#include "Main.h"
 
-void Urban_Area();
-void Rural_Area();
-void get_userdetails();
+
 void main()
 {
 	get_userdetails();
@@ -50,9 +45,9 @@ void main()
 			printf("\n\n\t\t\t\t****Thank you****\n\n");
 			break;
 		default:
-			printf("SORRY INVALID CHOICE!!!\n");
-			printf("PLEASE CHOOSE FROM 1 or 2\n");
+			exit(0);
 		}
 		getch();
 	} while (user_option == 3);
+
 }

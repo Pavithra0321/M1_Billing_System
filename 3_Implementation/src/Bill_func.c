@@ -11,11 +11,10 @@
 
 #include<stdio.h>
 #include<stdlib.h>
-#include<conio.h>
+#include<curses.h>
 #include<string.h>
-#include<Windows.h>
-#include"inc/Main.h"
-#include"inc/Bill_func.h"
+#include"Main.h"
+
 
 
 void get_userdetails()

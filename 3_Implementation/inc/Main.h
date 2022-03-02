@@ -14,9 +14,8 @@
 
 #include<stdio.h>
 #include<stdlib.h>
-#include<conio.h>
+#include<curses.h>
 #include<string.h>
-#include<Windows.h>
 
 struct ElectricityBill
 {
@@ -28,6 +27,9 @@ struct ElectricityBill
 	char address[100];
 	int phonenumber[10];
 };
+void Urban_Area();
+void Rural_Area();
+void get_userdetails();
 
 struct ElectricityBill EB;
 #endif
