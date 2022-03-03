@@ -1,16 +1,12 @@
 name: Cppcheck
-
 on:
   push:
     branches: [ EB-System ]
   pull_request:
     branches: [ EB-System ]
-
 jobs:
   build:
-
     runs-on: ubuntu-latest
-
     steps:
     - uses: actions/checkout@v2
     - name: Install
