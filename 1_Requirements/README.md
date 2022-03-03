@@ -23,7 +23,7 @@ Design and testing operations of electricity bill calculator using unit testing 
 Opportunities: We know that we mostly use pen and paper for calculation. So tech based market always attracts the youth.
 Threats: Slower growth in an innovation always threat for the company in this dynamic world.
 
-**#4’W and 1’H**
+**4’W and 1’H**
 * What: Electricity bill calculator**     
 * Where: School, Science, domestic, industries, Technology
 * When: Need for calculation.
