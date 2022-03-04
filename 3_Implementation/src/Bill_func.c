@@ -21,19 +21,19 @@ void get_userdetails()
 {
     printf("\t\t\t**WELCOME TO ELECTRICITY BILLING GENERATOR**\n");
     printf("AREA NAME:\n");
-	scanf("%s", EB.area);
+	scanf("%s",EB.area);
 	printf("REGISTERED PERSON NAME:\n");
-	scanf("%s", EB.name);
+	scanf("%s",EB.name);
 	printf("METER NUMBER:\n");
 	scanf("%d", &EB.meternumber);
     printf("UNITS CONSUMED:\n");
-	scanf("%d", &EB.unitsconsumed);
+	scanf("%d",&EB.unitsconsumed);
     printf("LINKED EMAIL ID:\n");
-    scanf("%s", EB.email);
+    scanf("%s",EB.email);
     printf("PERMANENT ADDRESS:\n");
-    scanf("%s", EB.address);
+    scanf("%s",EB.address);
     printf("PHONE NUMBER : \n");
-    scanf("%d", EB.phonenumber);
+    scanf("%d", &EB.phonenumber);
 }
 
 void Urban_Area()
@@ -58,10 +58,10 @@ void Urban_Area()
     }
 
     printf("\t\t----------GENERATING ELECTRICITY BILL----------\n\n");
-    printf("Name                            :%s\n", EB.name);
+    printf("Name                            :%s\n",EB.name);
     printf("AREA                            :%s\n",EB.area);
-    printf("Units you consumed this month   : %d\n", EB.unitsconsumed);
-    printf("In Urban, your electricity bill : %d\n", amount);
+    printf("Units you consumed this month   : %d\n",EB.unitsconsumed);
+    printf("In Urban, your electricity bill : %d\n",amount);
     printf("ELECTRICITY BOARD HEPLINE       : 8435 2340\n");
 }
 
@@ -86,9 +86,9 @@ void Rural_Area()
         amount = EB.unitsconsumed * 6.80;
     }
     printf("\t\t----------GENERATING ELECTRICITY BILL----------\n\n");
-    printf("Name                            : %s\n", EB.name);
+    printf("Name                            : %s\n",EB.name);
     printf("AREA                            :%s\n",EB.area);
-    printf("Units you consumed this month   : %d\n", EB.unitsconsumed);
-    printf("In Rural, your electricity bill : %d\n", amount);
+    printf("Units you consumed this month   : %d\n",EB.unitsconsumed);
+    printf("In Rural, your electricity bill : %d\n",amount);
     printf("ELECTRICITY BOARD HEPLINE       : 8435 2340\n");
 }
