@@ -1,12 +1,12 @@
 /**
  * @file ElectricityBilling_operations.h
  * @author Pavithra
- * @brief Header file for ElectricityBillingapplication with Arithmetic operations
+ * @brief Header file for ElectricityBilling application with Arithmetic operations
  *
  */
 
 #ifndef __ElectricityBilling_OPERATIONS_H__
-#define __ElectricityBilling_OPERATIONS_H_
+#define __ElectricityBilling_OPERATIONS_H__
 #include<stdio.h>
 #include<stdlib.h>
 #include<curses.h>
