@@ -1,3 +1,5 @@
+      Electricity Billing
+      
       After execution, the program will ask some details of the user like
         * Registered name
         * Area name
