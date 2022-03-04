@@ -30,7 +30,7 @@ void main()
 
 		printf("Now Enter Your Choice :\n");
 		scanf("%d", &user_option);
-		system("cls");
+		system("clr");
 		switch (user_option)
 		{
 		case 1:
