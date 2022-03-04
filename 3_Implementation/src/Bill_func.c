@@ -33,7 +33,7 @@ void get_userdetails()
     printf("PERMANENT ADDRESS:\n");
     scanf("%s",EB.address);
     printf("PHONE NUMBER : \n");
-    scanf("%d", &EB.phonenumber);
+    scanf("%d",EB.phonenumber);
 }
 
 void Urban_Area()
